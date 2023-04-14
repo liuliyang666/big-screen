@@ -1,5 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import * as echarts from "echarts";
+import { px } from "../shared/px";
+import { baseEchartOptions } from "../shared/base-echart-options";
 import { createEchartsOptions } from "../shared/create-echarts-options";
 
 export const Chart2 = () => {
