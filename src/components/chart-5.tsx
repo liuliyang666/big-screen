@@ -1,0 +1,65 @@
+import React from "react";
+
+export const Chart5 = () => {
+  return (
+    <div className="战果">
+      <h2>往年战果数对比</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>年份</th>
+            <th>破案数</th>
+            <th>抓获嫌疑人</th>
+            <th>并串案件</th>
+            <th>现勘录入</th>
+            <th>视侦录入</th>
+            <th>合成案件数</th>
+            <th>合计</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2019</td>
+            <td>120</td>
+            <td>300</td>
+            <td>40</td>
+            <td>100</td>
+            <td>20</td>
+            <td>30</td>
+            <td>150</td>
+          </tr>
+          <tr>
+            <td>2020</td>
+            <td>130</td>
+            <td>320</td>
+            <td>50</td>
+            <td>110</td>
+            <td>20</td>
+            <td>30</td>
+            <td>160</td>
+          </tr>
+          <tr>
+            <td>2021</td>
+            <td>140</td>
+            <td>350</td>
+            <td>60</td>
+            <td>120</td>
+            <td>20</td>
+            <td>30</td>
+            <td>170</td>
+          </tr>
+          <tr>
+            <td>2022</td>
+            <td>150</td>
+            <td>360</td>
+            <td>70</td>
+            <td>130</td>
+            <td>20</td>
+            <td>30</td>
+            <td>180</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  );
+};
