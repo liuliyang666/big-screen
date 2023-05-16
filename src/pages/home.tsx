@@ -22,7 +22,7 @@ export const Home = () => {
     <div className="home">
       <header>
         <div className="BgImg" style={{ backgroundImage: `url(${headerBg})` }}>
-          <div className="top">华东区公安作战平台</div>
+          <div className="top">大屏数据可视化</div>
         </div>
       </header>
       <main>
